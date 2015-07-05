@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#left{
+	width: 300px;
+	height: 1600px;
+	float: left;
+	background: #ddd;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#middle{
+	height: 1600px;
+	float: left;
+	margin: 0 300px 0 300px;
+  padding-left: 35px;
+}
+
+#right{
+  width: 300px;
+	height: 1600px;
+	float: right;
+	background: #ddd;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
