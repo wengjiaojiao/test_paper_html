@@ -10,7 +10,6 @@ document.querySelector("#submit").addEventListener("click",function(evt) {
     }else if(isNaN(document.getElementById("id").value)){
         alert("请输入数字");
     }else {
-        document.getElementById("score").value = comparison();
+        document.getElementById("score").value = AllQuestionBank.comparison();
     }
-    
 });
